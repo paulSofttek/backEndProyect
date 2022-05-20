@@ -9,7 +9,9 @@ import javax.persistence.ManyToOne;
 
 @Embeddable
 public class UsuarioRolPK  implements Serializable{
-
+	
+	//Esta clase sobra y menuPk también, se hace con el JoinTable xD
+	
 	@ManyToOne
 	@JoinColumn(name = "id_usuario", nullable = false)
 	private Usuario usuario;
