@@ -10,6 +10,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "analiticas")
 public class Analitica {
+	//Te estoy hackeando?
+	//SI te estoy hackeando MUAHAHAHAHA
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	Integer id_analitica;
